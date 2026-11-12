@@ -29,9 +29,9 @@ The application generates multiple driving routes, samples weather conditions al
 | Wind speed | Risk |
 | --- | --- |
 | < 25 mph | Low |
-| 25 to < 35 mph | Moderate |
-| 35 to < 45 mph | High |
-| 45 to < 55 mph | Severe |
+| 25 to 35 mph | Moderate |
+| 35 to 45 mph | High |
+| 45 to 55 mph | Severe |
 | >= 55 mph | No Travel |
 
 ### Rain
@@ -50,15 +50,15 @@ The application generates multiple driving routes, samples weather conditions al
 | --- | --- |
 | < 0.5 in/hr | Low |
 | 0.5 to 1.0 in/hr | Moderate |
-| > 1.0 to 2.0 in/hr | High |
-| > 2.0 to 3.0 in/hr | Severe |
+| 1.0 to 2.0 in/hr | High |
+| 2.0 to 3.0 in/hr | Severe |
 | > 3.0 in/hr | No Travel |
 
 ### Load-specific restrictions
 
 - Wind >= 55 mph results in No Travel for every load.
-- Wind 45 to < 55 mph with a load above 30,000 lb results in No Travel.
-- Wind 35 to < 45 mph with a load above 40,000 lb results in Severe risk.
+- Wind 45 to 55 mph with a load above 30,000 lb results in No Travel.
+- Wind 35 to 45 mph with a load above 40,000 lb results in Severe risk.
 
 ## Route Recommendation
 
