@@ -25,8 +25,11 @@ SECRET_KEY = 'django-insecure-9!p*hpsvi)3abldd23oa5l$3u=_zc2tq&$py6x*=p&4%t!^w&y
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = [
+    "weather-truck-routing-jqzw.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 # Application definition
 
